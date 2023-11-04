@@ -1,5 +1,7 @@
 Name: <input type="text" name="name" value="<?php echo $name;?>">
-Price: <input type="text" name="email" value="<?php echo $email;?>">
+Price Bought: <input type="text" name="priceBuy" value="<?php echo $priceBuy;?>">
+Price Listed: <input type="text" name="priceListed" value="<?php echo $priceListed;?>">
+Price Sold: <input type="text" name="priceSell" value="<?php echo $priceSell;?>">
 Description: <textarea name="description" rows="5" cols="40"><?php echo $description;?></textarea>
 <form action="upload.php" method="post" enctype="multipart/form-data">
   Select image to upload:
